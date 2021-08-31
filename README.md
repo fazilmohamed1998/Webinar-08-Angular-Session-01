@@ -1,11 +1,27 @@
-# Webinar-08-Angular-Session-01
+# MyBlogSite
 
-Exercise 01
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-Scenario 1:  Implement the blog post delete functionality.
-hint - you may try to delete elements from the blogs array
+## Development server
 
-Scenario 2: Implement 5-star rating feature. When a user clicks on a star, all the stars up to that rating need to be highlighted. If the user clicks on the same star raring, highlight has to be removed or if the user clicks on a different star, it has to be updated with the new rating.
-hint - you may maintain an additional property in the blogs array to keep track of the ratings for each array
-for start element you can use the font awesome icons - https://fontawesome.com/v4.7.0/icon/star
-you may follow the same approach we used to import fonts, to import font awesome to your project - https://fontawesome.com/v4.7.0/examples/
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
